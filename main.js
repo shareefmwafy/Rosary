@@ -1,5 +1,7 @@
 const button = document.querySelectorAll("button");
 const zero = document.querySelectorAll(".zero");
+const end = document.querySelectorAll(".end");
+const spanAll =document.querySelectorAll("span");
 
 let count =0;
 for(let i =0 ;i <button.length; i++){
@@ -23,3 +25,11 @@ for (let i=0; i<zero.length; i++) {
 
 }
 
+end.onclick = function(event) {
+    event.preventDefault();
+    console.log(spanAll);
+    // for (let i=0; i<spanAll.length; i++) {
+    //     spanAll[i].innerHTML = 0;
+    // }
+
+}

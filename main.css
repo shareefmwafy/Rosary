@@ -37,7 +37,7 @@ header p {
 
 .rosary{
     width: 100%;
-    height: 100vh;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,7 +79,7 @@ header p {
     color: #336cde;;
 }
 
-.card button {
+button {
     background-color: #336cde;
     color: #ffffff;
     border: none;
@@ -96,3 +96,8 @@ header p {
     background-color: #ff6f47;
 }
 
+.end
+{
+    width: 50%;
+    margin: auto;
+}
